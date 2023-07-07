@@ -1,0 +1,12 @@
+N,Método A,Método B,Média de A,Média de B,Lim. Inferior,Lim. Superior,Diferença estatística
+10,Dinamico,Memoizacao,0.0001,0.0,-0.0,0.0001,Falso
+10,Dinamico,Recursivo,0.0001,0.0001,-0.0002,0.0001,Falso
+10,Memoizacao,Recursivo,0.0,0.0001,-0.0002,0.0,Falso
+20,Dinamico,Memoizacao,0.0,0.0,-0.0001,0.0001,Falso
+20,Dinamico,Recursivo,0.0,0.0737,-0.0812,-0.066,Verdadeiro
+20,Memoizacao,Recursivo,0.0,0.0737,-0.0812,-0.066,Verdadeiro
+40,Dinamico,Memoizacao,0.0002,0.0002,-0.0003,0.0001,Falso
+80,Dinamico,Memoizacao,0.0009,0.001,-0.0003,-0.0,Verdadeiro
+160,Dinamico,Memoizacao,0.0033,0.005,-0.0018,-0.0015,Verdadeiro
+320,Dinamico,Memoizacao,0.0145,0.0189,-0.0048,-0.0042,Verdadeiro
+640,Dinamico,Memoizacao,0.0649,0.0842,-0.0202,-0.0185,Verdadeiro
